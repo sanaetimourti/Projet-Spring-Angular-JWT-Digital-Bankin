@@ -1,3 +1,4 @@
+package org.sid.ebankingbackend;
 
 import org.sid.ebankingbackend.dtos.BankAccountDTO;
 import org.sid.ebankingbackend.dtos.CurrentBankAccountDTO;
@@ -111,4 +112,3 @@ import java.util.stream.Stream;
         }
 
     }
-}

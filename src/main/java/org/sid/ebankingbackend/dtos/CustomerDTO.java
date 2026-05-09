@@ -5,8 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.sid.ebankingbackend.entities.BankAccount;
-
-import javax.persistence.*;
 import java.util.List;
 
 @Data
