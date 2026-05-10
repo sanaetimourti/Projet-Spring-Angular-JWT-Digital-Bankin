@@ -23,10 +23,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-/**
- * Intercepte POST /auth/login
- * Vérifie username/password → génère un JWT et le renvoie dans le header + body JSON.
- */
+
 public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
 
     private final AuthenticationManager authenticationManager;

@@ -22,8 +22,6 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        // ─── Utilisateurs de test ───────────────────────────────────────────────
-        // Remplace cette section par : return customerRepository.findByUsername(username)...
         switch (username) {
             case "admin":
                 return User.builder()
